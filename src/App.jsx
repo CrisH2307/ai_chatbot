@@ -22,10 +22,7 @@ function App() {
       <Navbar />
       <div className="h-full w-full p-10 flex flex-col items-center justify-center">
         <form className="w-full mx-auto p-4">
-          <label
-            htmlFor="message"
-            className="block font-extrabold text-lg mb-2 font-medium text-gray-900 dark:text-white"
-          >
+          <label htmlFor="message" className="block font-extrabold text-lg mb-2 text-gray-900 dark:text-white">
             Hello, how can I help you ?
           </label>
           <textarea
